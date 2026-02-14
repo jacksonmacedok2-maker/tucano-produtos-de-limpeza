@@ -1,22 +1,9 @@
 
-<IfModule mod_mime.c>
-  AddType text/plain .ts
-  AddType text/plain .tsx
-</IfModule>
-
 <IfModule mod_headers.c>
-  <FilesMatch "\.(ts|tsx)$">
-    Header set Access-Control-Allow-Origin "*"
-    Header set Content-Type "text/plain"
-  </FilesMatch>
-</IfModule>
-
-<FilesMatch "\.(html|htm|js|css|ts|tsx)$">
-  FileETag None
-  <IfModule mod_headers.c>
+  <FilesMatch "\.(html|htm|js|css)$">
     Header unset ETag
     Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"
     Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
-  </IfModule>
-</FilesMatch>
+  </FilesMatch>
+</IfModule>
