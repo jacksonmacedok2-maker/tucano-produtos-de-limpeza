@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, Droplets } from 'lucide-react';
-import { PageName } from '../types';
-import { LOGO_URL } from '../constants';
+import { PageName } from '../types.ts';
+import { LOGO_URL } from '../constants.ts';
 
 interface HeaderProps {
   currentPage: PageName;

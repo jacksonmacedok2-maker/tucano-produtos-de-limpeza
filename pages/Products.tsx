@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { PRODUCTS, PHONE_NUMBER } from '../constants';
-import { Category } from '../types';
+import { PRODUCTS, PHONE_NUMBER } from '../constants.ts';
+import { Category } from '../types.ts';
 import { ShoppingCart, Check } from 'lucide-react';
 
 const CATEGORIES: Category[] = ['Todos', 'Sabão', 'Sabão Líquido', 'Detergente', 'Cloro'];

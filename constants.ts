@@ -1,5 +1,5 @@
 
-import { Product, Testimonial } from './types';
+import { Product, Testimonial } from './types.ts';
 import { Sparkles, Droplets, ShieldCheck, Zap } from 'lucide-react';
 
 export const PHONE_NUMBER = "557588078221";

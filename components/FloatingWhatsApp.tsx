@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, X } from 'lucide-react';
-import { PHONE_NUMBER } from '../constants';
+import { PHONE_NUMBER } from '../constants.ts';
 
 export const FloatingWhatsApp: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);

@@ -1,7 +1,7 @@
 import React from 'react';
-import { PageName } from '../types';
+import { PageName } from '../types.ts';
 import { Instagram, Phone, Mail, MapPin } from 'lucide-react';
-import { INSTAGRAM_URL } from '../constants';
+import { INSTAGRAM_URL } from '../constants.ts';
 
 interface FooterProps {
   navigate: (page: PageName) => void;

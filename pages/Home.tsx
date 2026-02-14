@@ -1,6 +1,6 @@
 import React from 'react';
-import { PageName } from '../types';
-import { PRODUCTS, FEATURES, TESTIMONIALS, PHONE_NUMBER } from '../constants';
+import { PageName } from '../types.ts';
+import { PRODUCTS, FEATURES, TESTIMONIALS, PHONE_NUMBER } from '../constants.ts';
 import { ArrowRight, Star, CheckCircle2, MessageCircle } from 'lucide-react';
 
 interface HomeProps {

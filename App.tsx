@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { PageName } from './types';
-import { Header } from './components/Header';
-import { Footer } from './components/Footer';
-import { Home } from './pages/Home';
-import { Products } from './pages/Products';
-import { About } from './pages/About';
-import { Contact } from './pages/Contact';
-import { FloatingWhatsApp } from './components/FloatingWhatsApp';
+import { PageName } from './types.ts';
+import { Header } from './components/Header.tsx';
+import { Footer } from './components/Footer.tsx';
+import { Home } from './pages/Home.tsx';
+import { Products } from './pages/Products.tsx';
+import { About } from './pages/About.tsx';
+import { Contact } from './pages/Contact.tsx';
+import { FloatingWhatsApp } from './components/FloatingWhatsApp.tsx';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<PageName>('home');

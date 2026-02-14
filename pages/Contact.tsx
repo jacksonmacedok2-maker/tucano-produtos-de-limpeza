@@ -1,6 +1,7 @@
+
 import React from 'react';
 import { Phone, Mail, MapPin, Clock, Instagram } from 'lucide-react';
-import { PHONE_NUMBER, INSTAGRAM_URL } from '../constants';
+import { PHONE_NUMBER, INSTAGRAM_URL } from '../constants.ts';
 
 export const Contact: React.FC = () => {
   return (
